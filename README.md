@@ -15,7 +15,7 @@ Directions
 <pre>
 cd ~/
 git clone https://github.com/openhie/openinfoman-csv
-cd ~/opeinfoman-csv/repo
+cd ~/openinfoman-csv/repo
 ~/basex/bin/basex -Vc "REPO INSTALL openinfoman_csv_adapter.xqm"
 </pre>
 
