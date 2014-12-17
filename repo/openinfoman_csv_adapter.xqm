@@ -49,7 +49,7 @@ declare function oi_csv:get($csd_doc,$requestParams)
   let $xq := $declare_ns || "declare variable $doc external; $doc" || $entities_path
   let $entities := 
     if  ($entities_path) then
-      xquery:eval( $xq, map { "doc" := $doc0})
+      xquery:eval( $xq, map { "doc" : $doc0})
     else
       $doc0
 
@@ -61,7 +61,7 @@ declare function oi_csv:get($csd_doc,$requestParams)
 	<record>
 	  {
 	    for $xpath in $xpaths
-	    let $val :=  string(xquery:eval( $declare_ns || "declare variable $entity external; $entity/" || $xpath, map { "entity" := $entity}))  
+	    let $val :=  string(xquery:eval( $declare_ns || "declare variable $entity external; $entity/" || $xpath, map { "entity" : $entity}))  
 	    let $field := element {string($xpath/@name)} {$val} 
 	    return $field
 	  }
