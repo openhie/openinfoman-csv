@@ -1,0 +1,17 @@
+Source: openinfoman-csv
+Maintainer: Carl Leitner <litlfred@ibiblio.org>
+Section: web
+Priority: optional
+Standards-Version: 3.9.1
+Build-Depends: debhelper (>= 7)
+Homepage: https://github.com/openhie/openinfoman-csv
+
+
+Package: openinfoman-csv
+Architecture: all
+Depends: openinfoman (>= 1.0.11)
+Recommends: 
+Description: OpenInfoMan CSV Library
+ Adds ability for quickly defined stored functions to export CSV by defining xpaths
+
+
