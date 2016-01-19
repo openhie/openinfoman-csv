@@ -1,3 +1,11 @@
+openinfoman-csv (1.0.2~utopic) utopic; urgency=medium
+
+  * Release Version 1.0.2
+    -417680c webui API updates
+    --http://github.com/openhie/openinfoman-csv/commmit/417680c
+
+ -- Carl Leitner <litlfred@ibiblio.org>  Mon, 18 Jan 2016 22:47:34 -0500
+
 openinfoman-csv (1.0.1~utopic) utopic; urgency=medium
 
   * Release Version 1.0.1
