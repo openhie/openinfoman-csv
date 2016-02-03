@@ -31,7 +31,7 @@ declare
       <div>
         <h2>CSV Export for {$doc_name}</h2>
         { 
-	  let $url := csd_webui:generateURL( "CSD/csr/" , $doc_name , "/careServicesRequest/",$search_name, "/adapter/csv/get")
+	  let $url := csd_webui:generateURL(("CSD/csr/" , $doc_name , "/careServicesRequest/",$search_name, "/adapter/csv/get"))
 	  return <p>Get the  <a href="{$url}">CSV Export</a></p>
 	}
       </div>
