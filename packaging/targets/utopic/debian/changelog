@@ -1,3 +1,9 @@
+openinfoman-csv (1.0.4~utopic) utopic; urgency=medium
+
+  * Release Version 1.0.4
+
+ -- Carl Leitner <litlfred@ibiblio.org>  Sun, 14 Feb 2016 01:41:07 +0000
+
 openinfoman-csv (1.0.3~utopic) utopic; urgency=medium
 
   * Release Version 1.0.3
