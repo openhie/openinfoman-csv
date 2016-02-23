@@ -1,0 +1,22 @@
+#!/bin/bash
+set -x
+
+
+
+OI=/var/lib/openinfoman
+USERNAME=oi
+BASEX=$OI/bin/basex
+WGET=/usr/bin/wget
+
+REPOS=("openinfoman_csv_adapter.xqm")
+
+
+for REPO in ${REPOS[@]}
+do
+   INST="REPO INSTALL ${OI}/repo-src/${REPO}"
+   $BASEX -Vc "${INST}"
+done
+
+chown -R $USERNAME:$USERNAME $OI
+$WGET --no-check-certificate http://localhost:8984/CSD/storedFunctions/reload -O  /dev/null || true
+
