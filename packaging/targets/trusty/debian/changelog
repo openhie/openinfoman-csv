@@ -1,3 +1,11 @@
+openinfoman-csv (1.0.5~trusty) trusty; urgency=medium
+
+  * Release Version 1.0.5
+    -68ac262 packagin update: install repo/*xqm
+    --http://github.com/openhie/openinfoman-csv/commmit/68ac262
+
+ -- Carl Leitner <litlfred@ibiblio.org>  Tue, 23 Feb 2016 13:57:33 +0000
+
 openinfoman-csv (1.0.4~trusty) trusty; urgency=medium
 
   * Release Version 1.0.4
