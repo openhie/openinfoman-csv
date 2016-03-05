@@ -9,7 +9,7 @@ Homepage: https://github.com/openhie/openinfoman-csv
 
 Package: openinfoman-csv
 Architecture: all
-Depends: openinfoman (>= 1.0.11)
+Depends: openinfoman (>= 1.1)
 Recommends: 
 Description: OpenInfoMan CSV Library
  Adds ability for quickly defined stored functions to export CSV by defining xpaths
