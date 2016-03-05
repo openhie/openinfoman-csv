@@ -1,3 +1,9 @@
+openinfoman-csv (1.0.6~trusty) trusty; urgency=medium
+
+  * Release Version 1.0.6
+
+ -- Carl Leitner <litlfred@ibiblio.org>  Sat, 05 Mar 2016 09:55:01 +0000
+
 openinfoman-csv (1.0.5~trusty) trusty; urgency=medium
 
   * Release Version 1.0.5
