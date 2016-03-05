@@ -1,3 +1,11 @@
+openinfoman-csv (1.1.1~trusty) trusty; urgency=medium
+
+  * Release Version 1.1.1
+    -dc0e4a6 openinfoman 1.1 updates
+    --https://github.com/openhie/openinfoman-csv/commmit/dc0e4a6
+
+ -- Carl Leitner <litlfred@ibiblio.org>  Sat, 05 Mar 2016 10:52:13 +0000
+
 openinfoman-csv (1.0.6~trusty) trusty; urgency=medium
 
   * Release Version 1.0.6
