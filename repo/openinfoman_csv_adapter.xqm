@@ -5,7 +5,6 @@
 :
 :)
 module namespace oi_csv = "https://github.com/openhie/openinfoman/adapter/csv";
-import module namespace csd_webconf =  "https://github.com/openhie/openinfoman/csd_webconf";
 import module namespace csr_proc = "https://github.com/openhie/openinfoman/csr_proc";
 declare namespace csd = "urn:ihe:iti:csd:2013";
 
@@ -26,7 +25,7 @@ declare function oi_csv:get_serialized($csd_doc,$requestParams,$options) {
 declare function oi_csv:get($csd_doc,$requestParams) 
 {
   let $csv_name := string($requestParams/@function)
-  let $function := csr_proc:get_function_definition($csd_webconf:db,$csv_name)
+  let $function := csr_proc:get_function_definition($csv_name)
   let $xpaths := $function/csd:extension[@type='xpaths' and @urn='urn:openhie.org:openinfoman:adapter:csv']/xpath
   let $search_func := $function/csd:extension[@type='search' and @urn='urn:openhie.org:openinfoman:adapter:csv']/text()
   let $doc0 := 
@@ -38,7 +37,7 @@ declare function oi_csv:get($csd_doc,$requestParams)
 	  {$requestParams}
 	</csd:function>
       </csd:careServicesRequest>
-      return csr_proc:process_CSR_stored_results($csd_webconf:db, $csd_doc,$csr)/(csd:providerDirectory|csd:serviceDirectory|csd:organizationDirectory|csd:facilityDirectory)/*
+      return csr_proc:process_CSR_stored_results($csd_doc,$csr)/(csd:providerDirectory|csd:serviceDirectory|csd:organizationDirectory|csd:facilityDirectory)/*
     else
       $csd_doc/csd:CSD
    

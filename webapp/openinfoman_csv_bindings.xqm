@@ -11,7 +11,7 @@ declare namespace csd = "urn:ihe:iti:csd:2013";
 
 
 declare function page:is_csv($search_name) {
-  let $function := csr_proc:get_function_definition($csd_webconf:db,$search_name)
+  let $function := csr_proc:get_function_definition($search_name)
   let $ext := $function//csd:extension[  @urn='urn:openhie.org:openinfoman:adapter' and @type='csv']
   return (count($ext) > 0) 
 };
@@ -47,8 +47,8 @@ declare
   if (not(page:is_csv($search_name)) ) 
     then ('Not a CSV Compatible stored function'    )
   else 
-    let $doc :=  csd_dm:open_document($csd_webconf:db,$doc_name)
-    let $function := csr_proc:get_function_definition($csd_webconf:db,$search_name)
+    let $doc :=  csd_dm:open_document($doc_name)
+    let $function := csr_proc:get_function_definition($search_name)
 
     let $careServicesRequest := 
       <csd:careServicesRequest> 
@@ -56,7 +56,7 @@ declare
          <csd:requestParams/>
        </csd:function>
      </csd:careServicesRequest> 
-    let $csv := csr_proc:process_CSR_stored_results($csd_webconf:db, $doc,$careServicesRequest) 
+    let $csv := csr_proc:process_CSR_stored_results( $doc,$careServicesRequest) 
     let $output := $function/@content-type
     let $mime := 
       if (exists($output))
