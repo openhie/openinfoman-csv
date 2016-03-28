@@ -1,3 +1,11 @@
+openinfoman-csv (1.2.2~utopic) utopic; urgency=medium
+
+  * Release Version 1.2.2
+    -7d26344 fixup csd_webconf references
+    --http://github.com/openhie/openinfoman-csv/commmit/7d26344
+
+ -- Carl Leitner <litlfred@ibiblio.org>  Mon, 28 Mar 2016 01:57:13 +0000
+
 openinfoman-csv (1.2.1~utopic) utopic; urgency=medium
 
   * Release Version 1.2.1
