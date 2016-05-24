@@ -50,10 +50,8 @@ declare
     let $function := csr_proc:get_function_definition($search_name)
 
     let $careServicesRequest := 
-      <csd:careServicesRequest> 
-       <csd:function urn="{$search_name}" resource="{$doc_name}" base_url="{csd_webui:generateURL()}">
+      <csd:careServicesRequest urn="{$search_name}" resource="{$doc_name}" base_url="{csd_webui:generateURL()}">
          <csd:requestParams/>
-       </csd:function>
      </csd:careServicesRequest> 
     let $csv := csr_proc:process_CSR_stored_results( $doc,$careServicesRequest) 
     let $output := $function/@content-type

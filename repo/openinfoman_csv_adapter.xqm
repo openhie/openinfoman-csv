@@ -24,7 +24,7 @@ declare function oi_csv:get_serialized($csd_doc,$requestParams,$options) {
 
 declare function oi_csv:get($csd_doc,$requestParams) 
 {
-  let $csv_name := string($requestParams/@function)
+  let $csv_name := string($requestParams/@urn)
   let $function := csr_proc:get_function_definition($csv_name)
   let $xpaths := $function/csd:extension[@type='xpaths' and @urn='urn:openhie.org:openinfoman:adapter:csv']/xpath
   let $search_func := $function/csd:extension[@type='search' and @urn='urn:openhie.org:openinfoman:adapter:csv']/text()
@@ -32,10 +32,8 @@ declare function oi_csv:get($csd_doc,$requestParams)
     if ($search_func) 
     then
       let $csr :=
-      <csd:careServicesRequest>
-	<csd:function urn="{$search_func}" >
+      <csd:careServicesRequest urn="{$search_func}" >
 	  {$requestParams}
-	</csd:function>
       </csd:careServicesRequest>
       return csr_proc:process_CSR_stored_results($csd_doc,$csr)/(csd:providerDirectory|csd:serviceDirectory|csd:organizationDirectory|csd:facilityDirectory)/*
     else
