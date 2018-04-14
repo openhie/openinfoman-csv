@@ -1,0 +1,72 @@
+openinfoman-csv (1.2.2~trusty) trusty; urgency=medium
+
+  * Release Version 1.2.2
+    -7d26344 fixup csd_webconf references
+    --http://github.com/openhie/openinfoman-csv/commmit/7d26344
+
+ -- Carl Leitner <litlfred@ibiblio.org>  Mon, 28 Mar 2016 01:57:13 +0000
+
+openinfoman-csv (1.2.1~trusty) trusty; urgency=medium
+
+  * Release Version 1.2.1
+
+ -- Carl Leitner <litlfred@ibiblio.org>  Sun, 20 Mar 2016 18:33:53 +0000
+
+openinfoman-csv (1.1.1~trusty) trusty; urgency=medium
+
+  * Release Version 1.1.1
+    -dc0e4a6 openinfoman 1.1 updates
+    --https://github.com/openhie/openinfoman-csv/commmit/dc0e4a6
+
+ -- Carl Leitner <litlfred@ibiblio.org>  Sat, 05 Mar 2016 10:52:13 +0000
+
+openinfoman-csv (1.0.6~trusty) trusty; urgency=medium
+
+  * Release Version 1.0.6
+
+ -- Carl Leitner <litlfred@ibiblio.org>  Sat, 05 Mar 2016 09:55:01 +0000
+
+openinfoman-csv (1.0.5~trusty) trusty; urgency=medium
+
+  * Release Version 1.0.5
+    -68ac262 packagin update: install repo/*xqm
+    --http://github.com/openhie/openinfoman-csv/commmit/68ac262
+
+ -- Carl Leitner <litlfred@ibiblio.org>  Tue, 23 Feb 2016 13:57:33 +0000
+
+openinfoman-csv (1.0.4~trusty) trusty; urgency=medium
+
+  * Release Version 1.0.4
+
+ -- Carl Leitner <litlfred@ibiblio.org>  Sun, 14 Feb 2016 01:41:07 +0000
+
+openinfoman-csv (1.0.3~trusty) trusty; urgency=medium
+
+  * Release Version 1.0.3
+    -3d0c149 sending 5 items as a list instead of sending 5 parameters
+    --http://github.com/openhie/openinfoman-csv/commmit/3d0c149
+
+ -- Carl Leitner <litlfred@ibiblio.org>  Sun, 14 Feb 2016 01:39:29 +0000
+
+openinfoman-csv (1.0.2~trusty) trusty; urgency=medium
+
+  * Release Version 1.0.2
+    -417680c webui API updates
+    --http://github.com/openhie/openinfoman-csv/commmit/417680c
+
+ -- Carl Leitner <litlfred@ibiblio.org>  Mon, 18 Jan 2016 22:47:34 -0500
+
+openinfoman-csv (1.0.1~trusty) trusty; urgency=medium
+
+  * Release Version 1.0.1
+
+ -- Carl Leitner <litlfred@ibiblio.org>  Fri, 17 Apr 2015 13:59:48 -0400
+
+openinfoman-csv (1.0.0~trusty) trusty; urgency=low
+
+  [Carl Leitner <litlfred@ibiblio.org>]
+  * Initial Build
+    Fri 2015-02-13 13:55:10 -0500
+
+ -- Carl Leitner <litlfred@ibiblio.org>  Mon, 16 February 2015 13:55:10 -0500
+
