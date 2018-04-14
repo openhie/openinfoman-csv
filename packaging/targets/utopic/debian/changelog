@@ -1,3 +1,33 @@
+openinfoman-csv (1.2.3~utopic) utopic; urgency=medium
+
+  * Release Version 1.2.3
+    -91e281d packaging for 16.04
+    --https://github.com/openhie/openinfoman-csv/commmit/91e281d
+    -6ba8263 fixup request params for CP 926 of stored functions
+    --https://github.com/openhie/openinfoman-csv/commmit/6ba8263
+
+ -- Carl Leitner <litlfred@ibiblio.org>  Sat, 14 Apr 2018 06:58:04 +0000
+
+openinfoman-csv (1.2.3~utopic) utopic; urgency=medium
+
+  * Release Version 1.2.3
+    -91e281d packaging for 16.04
+    --https://github.com/openhie/openinfoman-csv/commmit/91e281d
+    -6ba8263 fixup request params for CP 926 of stored functions
+    --https://github.com/openhie/openinfoman-csv/commmit/6ba8263
+
+ -- Carl Leitner <litlfred@ibiblio.org>  Sat, 14 Apr 2018 06:57:10 +0000
+
+openinfoman-csv (1.2.3~utopic) utopic; urgency=medium
+
+  * Release Version 1.2.3
+    -91e281d packaging for 16.04
+    --https://github.com/openhie/openinfoman-csv/commmit/91e281d
+    -6ba8263 fixup request params for CP 926 of stored functions
+    --https://github.com/openhie/openinfoman-csv/commmit/6ba8263
+
+ -- Carl Leitner <litlfred@ibiblio.org>  Sat, 14 Apr 2018 06:56:23 +0000
+
 openinfoman-csv (1.2.2~utopic) utopic; urgency=medium
 
   * Release Version 1.2.2
