@@ -1,3 +1,11 @@
+openinfoman-csv (1.2.5~bionic) bionic; urgency=medium
+
+  * Release Version 1.2.5
+    -1c2cf9e packaging for ubuntu 18.04
+    --https://github.com/openhie/openinfoman-csv/commmit/1c2cf9e
+
+ -- Carl Leitner <litlfred@ibiblio.org>  Sun, 15 Apr 2018 07:32:38 +0000
+
 openinfoman-csv (1.2.4~xenial) xenial; urgency=medium
 
   * Release Version 1.2.4
